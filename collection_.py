@@ -13,3 +13,7 @@ k.remove(4)
 print(k)
 k.remove(4)
 print(k)
+coll_2 = ['hello', 'world', 'my', 'name']
+k.extend(coll_2)
+k.insert(5, 123)
+print(k)
